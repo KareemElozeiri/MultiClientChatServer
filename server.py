@@ -127,7 +127,8 @@ def connectToClient(command):
         print("Invalid input : enter the client number")
 #__thread two end__
 
-
+#these three functions handle the threading stuff to be able to accept and store connections in the background while the 
+#prompt of the program works without interuption
 def create_threads():
     for n in range(num_of_threads):
         #creating threads with job is the function work
